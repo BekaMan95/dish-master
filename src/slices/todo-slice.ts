@@ -19,6 +19,7 @@ const todoSlice = createSlice({
             // console.log('Adding todo:', action.payload.title);
             // console.log('Current todos:', state.todos);
             state.todos = [...state.todos, action.payload];
+            // state.todos.push(action.payload); => checked and works too!!
         },
     }
 });
